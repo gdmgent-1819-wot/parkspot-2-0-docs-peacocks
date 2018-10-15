@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Betaalautomaten",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget imperdiet nisi. Aenean at tortor fermentum, tincidunt metus ac, malesuada turpis. Sed varius euismod quam eget feugiat. Sed eget feugiat metus. Nam ligula nunc, consectetur nec urna at, luctus iaculis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget imperdiet nisi. Aenean at tortor fermentum, tincidunt metus ac, malesuada turpis. Sed varius euismod quam eget feugiat. Sed eget feugiat metus. Nam ligula nunc, consectetur nec urna at, luctus iaculis.",
+    "advantages": [
+      "Goedkoop",
+      "Vrij accuraat",
+      "Uitbreidbaar"
+    ],
+    "disadvantages": [
+      "Niet real-time",
+      "Illegaal parkeren",
+      "Geen open data",
+      "Zon / feestdagen"
+    ]
+  },
+  {
+    "name": "Smart straatverlichting",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget imperdiet nisi. Aenean at tortor fermentum, tincidunt metus ac, malesuada turpis. Sed varius euismod quam eget feugiat. Sed eget feugiat metus. Nam ligula nunc, consectetur nec urna at, luctus iaculis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget imperdiet nisi. Aenean at tortor fermentum, tincidunt metus ac, malesuada turpis. Sed varius euismod quam eget feugiat. Sed eget feugiat metus. Nam ligula nunc, consectetur nec urna at, luctus iaculis.",
+    "advantages": [
+      "Real-time",
+      "Overdag / nacht"
+    ],
+    "disadvantages": [
+      "Duur",
+      "Vrijwel onrealistisch",
+      "Moeilijk onderhoud"
+    ]
+  }
+]

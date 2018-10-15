@@ -1,0 +1,412 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:300,400,500");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 
+Parkspot 
+*/
+:root {
+  --main-gradient: radial-gradient(circle at 10% 20%, rgb(5, 10, 218) 0%, rgb(81, 45, 164) 90%);
+}
+
+/*
+Fonts
+*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #2b2b2b;
+}
+
+p {
+  font-family: "Frank Ruhl Libre", serif;
+  color: #2b2b2b;
+}
+
+body {
+  /* background-image: var(--main-gradient); */
+  -webkit-font-smoothing: antialiased;
+}
+
+/*
+Container & grid
+*/
+.container {
+  max-width: 1430px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+/* 
+Sections
+*/
+.section__intro {
+  padding-bottom: 0;
+}
+.section__intro h1 {
+  font-size: 55px;
+}
+
+.section--black {
+  background-color: #070707;
+}
+
+.section__title {
+  grid-column: 1/13;
+}
+.section__title h1 {
+  font-size: 30px;
+  line-height: 32px;
+}
+.section__title h2 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+  letter-spacing: -0.8px;
+}
+
+.section__description {
+  grid-column: 1/13;
+  padding-top: 12px;
+}
+.section__description p {
+  font-size: 18px;
+  line-height: 29px;
+  padding-top: 24px;
+  font-weight: 400;
+}
+
+.points {
+  margin-top: 40px;
+}
+.points h4 {
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+.points h4 small {
+  font-size: 16px;
+  padding-right: 10px;
+}
+
+.header__nav {
+  display: none;
+}
+
+.header__nav--mobile {
+  display: flex;
+}
+
+.section__description--left .points h4, .section__description--right .points h4 {
+  font-size: 30px;
+  margin-bottom: 35px;
+}
+.section__description--left .points h4 small, .section__description--right .points h4 small {
+  font-size: 30px;
+  padding-right: 10px;
+}
+
+.oplossingen .section__title:not(:first-child) {
+  padding-top: 50px;
+}
+
+@media (min-width: 320px) {
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+}
+@media (min-width: 480px) {
+  /* smartphones, Android phones, landscape iPhone */
+}
+@media (min-width: 600px) {
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+}
+@media (min-width: 801px) {
+  .container {
+    max-width: 1430px;
+    margin: 0 auto;
+    padding: 0 70px;
+  }
+}
+@media (min-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */
+}
+@media (min-width: 1281px) {
+  .section__intro h1 {
+    font-size: 90px;
+  }
+
+  .section__title h1 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+  .section__title h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .section__description {
+    grid-column: 5/13;
+    padding-top: 24px;
+  }
+  .section__description p {
+    font-size: 21px;
+    line-height: 36px;
+    font-weight: 400;
+  }
+
+  .section__description--left, .section__description--right {
+    margin-top: 40px;
+  }
+  .section__description--left .points h4, .section__description--right .points h4 {
+    font-size: 42px;
+    margin-bottom: 56px;
+  }
+  .section__description--left .points h4 small, .section__description--right .points h4 small {
+    font-size: 30px;
+    padding-right: 10px;
+  }
+
+  .points {
+    margin-top: 40px;
+  }
+  .points h4 {
+    font-size: 72px;
+    margin-bottom: 60px;
+  }
+  .points h4 small {
+    font-size: 20px;
+    padding-right: 10px;
+  }
+
+  .header__nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .header__nav--mobile {
+    display: none;
+  }
+
+  .section__description--left {
+    grid-column: 1/7;
+  }
+
+  .section__description--right {
+    grid-column: 7/13;
+  }
+
+  .oplossingen .section__title:not(:first-child) {
+    padding-top: 170px;
+  }
+}
+.container--header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container--header > h6 {
+  font-size: 20px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.header__nav > ul {
+  display: flex;
+}
+
+.header__nav > ul > li {
+  margin-left: 20px;
+}
+
+.header__nav > ul > li > a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  color: inherit;
+}
+
+/**
+* Sections
+*/
+.site__content {
+  max-width: 1430px;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+
+section h1, section p {
+  color: #2b2b2b;
+}
+section h2 {
+  color: #767676;
+}
+
+.section--black h1, .section--black h2, .section--black h3, .section--black h4, .section--black h5, .section--black h6, .section--black p, .section--black span {
+  color: #fff;
+}
+
+section {
+  padding: 100px 0;
+}
+
+.grid {
+  display: grid;
+  grid-auto-columns: repeat(1fr, 12);
+  grid-column-gap: 12px;
+}
+
+header {
+  position: fixed;
+  height: 80px;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */
