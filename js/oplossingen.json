@@ -26,5 +26,30 @@
       "Vrijwel onrealistisch",
       "Moeilijk onderhoud"
     ]
+  },
+  {
+    "name": "Grondsensor",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget imperdiet nisi. Aenean at tortor fermentum, tincidunt metus ac, malesuada turpis. Sed varius euismod quam eget feugiat. Sed eget feugiat metus. Nam ligula nunc, consectetur nec urna at, luctus iaculis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget imperdiet nisi. Aenean at tortor fermentum, tincidunt metus ac, malesuada turpis. Sed varius euismod quam eget feugiat. Sed eget feugiat metus. Nam ligula nunc, consectetur nec urna at, luctus iaculis.",
+    "advantages": [
+      "Real-time",
+      "Overdag / nacht",
+      "Zeer accuraat"
+    ],
+    "disadvantages": [
+      "Installatiekost",
+      "Veel sensoren"
+    ]
+  },
+  {
+    "name": "Sattelietdata",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget imperdiet nisi. Aenean at tortor fermentum, tincidunt metus ac, malesuada turpis. Sed varius euismod quam eget feugiat. Sed eget feugiat metus. Nam ligula nunc, consectetur nec urna at, luctus iaculis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget imperdiet nisi. Aenean at tortor fermentum, tincidunt metus ac, malesuada turpis. Sed varius euismod quam eget feugiat. Sed eget feugiat metus. Nam ligula nunc, consectetur nec urna at, luctus iaculis.",
+    "advantages": [
+      "Relatief goedkoop"
+    ],
+    "disadvantages": [
+      "Niet real-time",
+      "Beschikbaarheid data",
+      "Niet open-source"
+    ]
   }
 ]
