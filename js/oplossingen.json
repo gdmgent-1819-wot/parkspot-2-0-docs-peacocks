@@ -16,7 +16,7 @@
   },
   {
     "name": "Smart straatverlichting",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget imperdiet nisi. Aenean at tortor fermentum, tincidunt metus ac, malesuada turpis. Sed varius euismod quam eget feugiat. Sed eget feugiat metus. Nam ligula nunc, consectetur nec urna at, luctus iaculis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget imperdiet nisi. Aenean at tortor fermentum, tincidunt metus ac, malesuada turpis. Sed varius euismod quam eget feugiat. Sed eget feugiat metus. Nam ligula nunc, consectetur nec urna at, luctus iaculis.",
+    "description": "We kunnen sensoren of camera’s plaatsen in onder andere straatlantaarns of aan gevels die vanuit bovenaanzicht meerdere parkingplaatsen tegelijk kunnen observeren. Een ideale opstelling zou betekenen dat een sensor aan een lantaarn drie onderliggende parkeerplaatsen kan zien en reageren op aanpassingen (auto komt op de parkeerplaats, auto verlaat de parkeerplaats). Er kan eventueel met camera’s gewerkt worden waarbij het beeld dan vaag gemaakt wordt zodat personen niet kunnen herkend worden.",
     "advantages": [
       "Real-time",
       "Overdag / nacht"
