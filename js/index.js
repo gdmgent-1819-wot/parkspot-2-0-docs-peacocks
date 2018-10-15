@@ -1,6 +1,6 @@
 
 
-fetch('../js/oplossingen.json').then((res) => {
+fetch('https://raw.githubusercontent.com/gdmgent-1819-wot/parkspot-2-0-docs-peacocks/master/js/oplossingen.json').then((res) => {
   const oplossingen_element = document.querySelector('.oplossingen');
   res.json().then(data => {
     let i = 1;
